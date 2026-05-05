@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "name": "Omega Scans",
+    "author": "vBook",
+    "version": 1,
+    "source": "https://omegascans.org",
+    "regexp": "omegascans\\.org/series/[^/]+/?$",
+    "description": "Đọc truyện tranh trên trang Omega Scans",
+    "locale": "en_US",
+    "type": "comic",
+    "language": "javascript",
+    "tag": "nsfw"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js",
+    "page": "page.js"
+  }
+}
